@@ -1,0 +1,87 @@
+/* 
+  Terence Nguyen
+  1/22/2022
+  Help style
+  This is the CSS and styling for the help.html page
+*/
+body
+{
+  background-color:black;
+  color:white;
+  margin:0px;
+}
+/* Below is the topbar */
+#topWhole {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  background-color:#4d4d4d;
+  position: fixed;
+  top:0;
+  width:100%;
+  z-index:1;
+}
+#top {
+  float: left;
+}
+#top a {
+  color:white;
+  display: block;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+#top a:hover {
+  background-color:grey;
+}
+.active {
+  background-color:green;
+}
+/* Below is the Help Page */
+#header
+{
+  font-size:5em;
+  text-align:center;
+  position: relative;
+  top:5%;
+}
+h2
+{
+  font-size:40px;
+  text-align:center;
+}
+p
+{
+  font-size:20px;
+  width:40%;
+  position: relative;
+  left:5%;
+}
+#jumping
+{
+  position: relative;
+  left:120%;
+  top:-200px;
+}
+#button1
+{
+  position: relative;
+  left:5%;
+  top:-150px;
+}
+#button2
+{
+  position: relative;
+  left:50%;
+  top:-450px;
+}
+#banana
+{
+  position: relative;
+  left:130%;
+  top:-700px;
+}
+
+
+
